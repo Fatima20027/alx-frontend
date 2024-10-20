@@ -35,7 +35,7 @@
   --nav-item-font-family: var(--font-family-title);
   --nav-item-font-weight: var(--font-weight-bold);
   --nav-item-font-size: var(--font-size-medium);
-  --nav-item-letter-spacing: 4%;
+  --nav-item-letter-spacing: 0.04rem;
   --nav-item-display: inline-block;
   --nav-item-margin:  0 0 3rem 0;
   --nav-item-link-hover: var(--color-primary);
@@ -95,7 +95,7 @@ a[href]:active {
   text-align: center;
 }
 
-.nav  .nav-item{
+.nav .nav-item{
   font-family: var(--nav-item-font-family);
   font-weight: var(--nav-item-font-weight);
   font-size: var(--nav-item-font-size);
@@ -104,16 +104,15 @@ a[href]:active {
   margin: var(--nav-item-margin);
 }
 
-.nav  .nav-link{
+.nav .nav-link{
   display: block;
-  padding:  0.5rem 1rem;
+  padding: 0.5rem 1rem;
 }
 
-.nav  .nav-link:hover{
+.nav .nav-link:hover{
   color: var(--nav-item-link-hover);
 
 }
-
 
 .visually-hidden {
   display: none;
@@ -165,4 +164,3 @@ a[href]:active {
 .footer{
   padding: var(--footer-padding);
 }
-
