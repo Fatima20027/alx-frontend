@@ -291,7 +291,7 @@ ul.row {
   position: var(--header-logo-position);
 }
 
-.header-logo[herf]{
+.header-logo a{
   display: var(--header-logo-link-display);
   position: var(--header-logo-link-position);
   align-items: var(--header-logo-link-top);
